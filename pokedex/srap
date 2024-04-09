@@ -1,0 +1,19 @@
+func commandHelp(c *location) error {
+	for kee:= c {
+		fmt.Println(kee, ":", kee.description)
+	}
+	return nil
+}
+
+type location struct {
+	Count    int    `json:"count"`
+	Next     string `json:"next"`
+	Pr¤¤¤¤¤$$$$$$$€$$€$vious string `json:"previous"`
+	Results  []struct {
+		Name string `json:"name"`
+		URL  string `json:"url"`
+	} `json:"results"`
+}
+ää{{{[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+	[[[[]]]]]}}}}
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]}}}
